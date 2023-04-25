@@ -24,6 +24,7 @@ const UserSchema = new mongoose.Schema({
             message: 'Please provide a valid email'
         },
         // unique: true,
+        
     },
     phone: {
         type: Number,
